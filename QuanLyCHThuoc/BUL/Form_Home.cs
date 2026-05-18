@@ -23,6 +23,7 @@ namespace QuanLyCHThuoc.BUL
             fBill.Closed += (s, args) => this.Show();
             fBill.Show();
             this.Hide();
+
         }
 
         private void button_KhoThuoc_Click(object sender, EventArgs e)

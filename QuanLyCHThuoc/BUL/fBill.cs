@@ -27,7 +27,6 @@ namespace QuanLyCHThuoc.BUL
 
         private void fBill_Load(object sender, EventArgs e)
         {
-            // Tự động sinh số hóa đơn và ngày mua
             SetCodeAndDate();
 
             conn = new SqlConnection(sqlConnection);

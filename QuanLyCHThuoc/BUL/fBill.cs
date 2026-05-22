@@ -43,7 +43,6 @@ namespace QuanLyCHThuoc.BUL
             clNameMedicine.ValueMember = "Mã số";
         }
 
-        // Tự động sinh số HĐ và ngày mua
         void SetCodeAndDate()
         {
             DateTime now = DateTime.Now;
